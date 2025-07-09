@@ -81,3 +81,57 @@ User Input: [Configuration, Gain, Vcc, Vout]
     VAE Model → [Latent Space]
       ↓
 Prediction: [RC, RE, RG]
+
+
+<img src="images/block_diagram.png" alt="Block Diagram" width="400" height="300"/>
+
+## 📷 Visuals
+
+### 📌 Block Diagram  
+<img src="images/block_diagram.png" alt="Block Diagram" width="500"/>
+
+### 📉 Loss over Epochs  
+<img src="images/loss_curve.png" alt="Training Loss" width="500"/>
+
+### 🧩 Generated Amplifier Circuit  
+<img src="images/generated_circuit.png" alt="Generated Circuit" width="500"/>
+
+---
+
+## 📈 Performance Metrics
+
+| Metric | Value (Example) |
+|--------|------------------|
+| MSE    | 0.013            |
+| MAE    | 0.067            |
+| RMSE   | 0.11             |
+| R²     | 0.93             |
+
+---
+
+## 🚀 Applications
+
+- Analog circuit design automation  
+- Education tools for learning design-space relationships  
+- EDA tools integration for intelligent suggestions  
+- Rapid prototyping of single-stage amplifiers  
+
+---
+
+## 🔮 Future Scope
+
+- Integration of performance metrics into training loss function  
+- Expansion to multi-stage amplifier design generation  
+- SPICE netlist generation for simulation and testing  
+- Incorporation with layout tools such as **LayoutCopilot**  
+- Use of **Graph Neural Networks (GNNs)** for full topology prediction  
+
+---
+
+## ✅ Conclusion
+
+- VAE-based models can predict resistor values with reasonable accuracy.  
+- Enables faster, AI-assisted circuit prototyping.  
+- Demonstrates the potential of GenAI in analog hardware design automation.
+
+
