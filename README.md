@@ -75,7 +75,7 @@ This project proposes a **data-driven, GenAI approach** to automate the resistor
 ## 📷 Visuals
 
 ### 📌 Block Diagram  
-<img src="images/block_diagram.png" alt="Block Diagram" width="500"/>
+<img src="workflow.png" alt="Block Diagram" width="500"/>
 
 ### 📉 Loss over Epochs  
 <img src="loss.png" alt="Training Loss" width="500" height="350"/>
