@@ -71,19 +71,6 @@ This project proposes a **data-driven, GenAI approach** to automate the resistor
 
 ---
 
-## 🔄 Workflow
-
-```text
-User Input: [Configuration, Gain, Vcc, Vout]
-      ↓
- Preprocessing (One-hot + MinMax Scaling)
-      ↓
-    VAE Model → [Latent Space]
-      ↓
-Prediction: [RC, RE, RG]
-
-
-<img src="images/block_diagram.png" alt="Block Diagram" width="400" height="300"/>
 
 ## 📷 Visuals
 
@@ -91,21 +78,16 @@ Prediction: [RC, RE, RG]
 <img src="images/block_diagram.png" alt="Block Diagram" width="500"/>
 
 ### 📉 Loss over Epochs  
-<img src="images/loss_curve.png" alt="Training Loss" width="500"/>
+<img src="loss.png" alt="Training Loss" width="500" height="350"/>
 
 ### 🧩 Generated Amplifier Circuit  
-<img src="images/generated_circuit.png" alt="Generated Circuit" width="500"/>
+<img src="output.png" alt="Generated Circuit" width="500" height="350"/>
 
 ---
 
 ## 📈 Performance Metrics
 
-| Metric | Value (Example) |
-|--------|------------------|
-| MSE    | 0.013            |
-| MAE    | 0.067            |
-| RMSE   | 0.11             |
-| R²     | 0.93             |
+<img src="performance_matrics.png" alt="Generated Circuit" width="500" height="350"/>
 
 ---
 
